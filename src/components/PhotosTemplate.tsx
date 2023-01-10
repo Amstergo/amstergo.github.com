@@ -2,6 +2,7 @@ import * as React from "react";
 import { PhotoPicker } from "@/components/PhotoPicker";
 import { router } from "next/client";
 import mergeImages from "merge-images";
+// @ts-ignore
 import { triggerBase64Download } from "react-base64-downloader";
 
 type Props = {
